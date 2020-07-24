@@ -20,7 +20,7 @@ function setup() {
 }
 
 function draw() {
-	background(0, 0, 0);
+	background(30, 120, 160);
 	drawNodes();
 	textSize(20);
 	textAlign(LEFT, CENTER);
