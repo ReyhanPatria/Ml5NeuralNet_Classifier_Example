@@ -115,3 +115,7 @@ function finishedTraining() {
 	console.log("Finished training");
 	state = "predicting";
 }
+
+function moveBall() {
+	console.log("ball is moved!");
+}
