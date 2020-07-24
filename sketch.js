@@ -20,9 +20,10 @@ function setup() {
 }
 
 function draw() {
-	background(30, 120, 160);
+	background(0);
 	drawNodes();
 	textSize(20);
+	fill(255);
 	textAlign(LEFT, CENTER);
 	text("Current label: " + nodeLabel, 40, 40);
 	text("Current state: " + state, 40, 70);
